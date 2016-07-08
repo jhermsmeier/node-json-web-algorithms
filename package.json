@@ -1,0 +1,39 @@
+{
+  "name": "json-web-algorithms",
+  "version": "0.0.0",
+  "description": "JSON Web Algorithms (JWA) for JSON Object Signing and Encryption (JOSE)",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "license": "MIT",
+  "keywords": [
+    "jwa",
+    "jose",
+    "acme",
+    "json",
+    "sign",
+    "verify",
+    "encrypt",
+    "crypto",
+    "jwt"
+  ],
+  "main": "lib/jwa.js",
+  "dependencies": {
+    "asn1.js": "~4.6.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.5.3"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-json-web-algorithms",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-json-web-algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-json-web-algorithms/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd"
+  }
+}
