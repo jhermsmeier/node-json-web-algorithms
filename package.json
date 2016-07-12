@@ -17,7 +17,7 @@
   ],
   "main": "lib/jwa.js",
   "dependencies": {
-    "asn1.js": "~4.6.2"
+    "asn1.js": "~4.8.0"
   },
   "devDependencies": {
     "mocha": "~2.5.3"
