@@ -16,11 +16,14 @@
     "jwt"
   ],
   "main": "lib/jwa.js",
+  "scripts": {
+    "test": "mocha --ui tdd"
+  },
   "dependencies": {
-    "asn1.js": "~4.8.0"
+    "asn1.js": "^5.0.1"
   },
   "devDependencies": {
-    "mocha": "~2.5.3"
+    "mocha": "^5.2.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-json-web-algorithms",
   "repository": {
@@ -29,11 +32,5 @@
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-json-web-algorithms/issues"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha --ui tdd"
   }
 }
