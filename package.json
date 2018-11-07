@@ -1,6 +1,6 @@
 {
   "name": "json-web-algorithms",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "JSON Web Algorithms (JWA) for JSON Object Signing and Encryption (JOSE)",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
